@@ -1,0 +1,5 @@
+C:\MyRepositories\EASProWorker\Model\bin\Debug\Model.dll
+C:\MyRepositories\EASProWorker\Model\bin\Debug\Model.pdb
+C:\MyRepositories\EASProWorker\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\MyRepositories\EASProWorker\Model\obj\Debug\Model.dll
+C:\MyRepositories\EASProWorker\Model\obj\Debug\Model.pdb

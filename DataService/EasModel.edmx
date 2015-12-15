@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="YNNZ2011001Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <Function Name="SZY_SaleIssueBase" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="FBizDateStrart" Type="date" Mode="In" />
+          <Parameter Name="FBizDateEnd" Type="date" Mode="In" />
+        </Function>
+        <EntityContainer Name="YNNZ2011001ModelStoreContainer" />
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="YNNZ2011001Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="EasEntities" annotation:LazyLoadingEnabled="true" >
+          <FunctionImport Name="SZY_SaleIssueBase" ReturnType="Collection(YNNZ2011001Model.SZY_SaleIssueBase_Result)">
+            <Parameter Name="FBizDateStrart" Mode="In" Type="DateTime" />
+            <Parameter Name="FBizDateEnd" Mode="In" Type="DateTime" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="SZY_SaleIssueBase_Result">
+          <Property Type="String" Name="FID" Nullable="true" MaxLength="44" />
+          <Property Type="String" Name="FCustomer" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="FPaymentType" Nullable="true" MaxLength="80" />
+          <Property Type="String" Name="FStorageOrgUnit" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="FParentStorageOrgUnit" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="FTransactionType" Nullable="true" MaxLength="255" />
+          <Property Type="DateTime" Name="FAuditTime" Nullable="true" Precision="23" />
+          <Property Type="String" Name="FAuditor" Nullable="true" MaxLength="80" />
+          <Property Type="Int32" Name="FBaseStatus" Nullable="true" />
+          <Property Type="String" Name="FBizType" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="FBillType" Nullable="true" MaxLength="255" />
+          <Property Type="Int32" Name="FYear" Nullable="true" />
+          <Property Type="Int32" Name="FPeriod" Nullable="true" />
+          <Property Type="String" Name="FNumber" Nullable="true" MaxLength="80" />
+          <Property Type="DateTime" Name="FBizDate" Nullable="true" Precision="23" />
+          <Property Type="String" Name="FCreator" Nullable="true" MaxLength="80" />
+          <Property Type="DateTime" Name="FCreateTime" Nullable="true" Precision="23" />
+          <Property Type="String" Name="FControlUnit" Nullable="true" MaxLength="255" />
+          <Property Type="Int32" Name="FIsInTax" Nullable="true" />
+          <Property Type="Int32" Name="FMonth" Nullable="true" />
+          <Property Type="Int32" Name="FDay" Nullable="true" />
+          <Property Type="String" Name="CFNZDepCash" Nullable="true" MaxLength="255" />
+          <Property Type="Decimal" Name="FTaxPrice" Nullable="false" Precision="28" Scale="16" />
+          <Property Type="Decimal" Name="FActualPrice" Nullable="false" Precision="28" Scale="16" />
+          <Property Type="String" Name="FBalanceCustomer" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="FOrderCustomer" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="FPaymentCustomer" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="FCompanyOrgUnit" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="FWarehouse" Nullable="true" MaxLength="255" />
+          <Property Type="Decimal" Name="FQty" Nullable="true" Precision="28" Scale="16" />
+          <Property Type="Decimal" Name="FBaseQty" Nullable="true" Precision="28" Scale="16" />
+          <Property Type="Decimal" Name="FPrice" Nullable="true" Precision="28" Scale="16" />
+          <Property Type="Decimal" Name="FAmount" Nullable="true" Precision="19" Scale="4" />
+          <Property Type="Decimal" Name="FUnitActualCost" Nullable="true" Precision="28" Scale="16" />
+          <Property Type="Decimal" Name="FActualCost" Nullable="true" Precision="19" Scale="4" />
+          <Property Type="String" Name="FUnit" Nullable="true" MaxLength="80" />
+          <Property Type="String" Name="FBaseUnit" Nullable="true" MaxLength="80" />
+          <Property Type="Decimal" Name="FDiscount" Nullable="true" Precision="21" Scale="8" />
+          <Property Type="Decimal" Name="CFMinPrice" Nullable="true" Precision="28" Scale="10" />
+          <Property Type="String" Name="CFNZMaterialName" Nullable="true" MaxLength="200" />
+          <Property Type="String" Name="FCustomerNumber" Nullable="true" MaxLength="80" />
+          <Property Type="String" Name="FCustomerDisplayName" Nullable="true" MaxLength="80" />
+          <Property Type="String" Name="FCustomerType0" Nullable="true" MaxLength="80" />
+          <Property Type="String" Name="FCustomerType1" Nullable="true" MaxLength="80" />
+          <Property Type="String" Name="FCustomerType2" Nullable="true" MaxLength="80" />
+          <Property Type="String" Name="FMaterialNumber" Nullable="true" MaxLength="80" />
+          <Property Type="String" Name="FMaterial" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="FMaterialModel" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="FMaterialDisplayName" Nullable="true" MaxLength="80" />
+          <Property Type="String" Name="FMaterialType0" Nullable="true" MaxLength="80" />
+          <Property Type="String" Name="FMaterialType1" Nullable="true" MaxLength="80" />
+          <Property Type="String" Name="FMaterialType2" Nullable="true" MaxLength="80" />
+          <Property Type="String" Name="FBrandFertilizer" Nullable="true" MaxLength="80" />
+          <Property Type="String" Name="FBrandCarbaMind" Nullable="true" MaxLength="80" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="YNNZ2011001ModelStoreContainer" CdmEntityContainer="EasEntities" >
+          <FunctionImportMapping FunctionImportName="SZY_SaleIssueBase" FunctionName="YNNZ2011001Model.Store.SZY_SaleIssueBase">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="YNNZ2011001Model.SZY_SaleIssueBase_Result">
+                <ScalarProperty Name="FID" ColumnName="FID" />
+                <ScalarProperty Name="FCustomer" ColumnName="FCustomer" />
+                <ScalarProperty Name="FPaymentType" ColumnName="FPaymentType" />
+                <ScalarProperty Name="FStorageOrgUnit" ColumnName="FStorageOrgUnit" />
+                <ScalarProperty Name="FParentStorageOrgUnit" ColumnName="FParentStorageOrgUnit" />
+                <ScalarProperty Name="FTransactionType" ColumnName="FTransactionType" />
+                <ScalarProperty Name="FAuditTime" ColumnName="FAuditTime" />
+                <ScalarProperty Name="FAuditor" ColumnName="FAuditor" />
+                <ScalarProperty Name="FBaseStatus" ColumnName="FBaseStatus" />
+                <ScalarProperty Name="FBizType" ColumnName="FBizType" />
+                <ScalarProperty Name="FBillType" ColumnName="FBillType" />
+                <ScalarProperty Name="FYear" ColumnName="FYear" />
+                <ScalarProperty Name="FPeriod" ColumnName="FPeriod" />
+                <ScalarProperty Name="FNumber" ColumnName="FNumber" />
+                <ScalarProperty Name="FBizDate" ColumnName="FBizDate" />
+                <ScalarProperty Name="FCreator" ColumnName="FCreator" />
+                <ScalarProperty Name="FCreateTime" ColumnName="FCreateTime" />
+                <ScalarProperty Name="FControlUnit" ColumnName="FControlUnit" />
+                <ScalarProperty Name="FIsInTax" ColumnName="FIsInTax" />
+                <ScalarProperty Name="FMonth" ColumnName="FMonth" />
+                <ScalarProperty Name="FDay" ColumnName="FDay" />
+                <ScalarProperty Name="CFNZDepCash" ColumnName="CFNZDepCash" />
+                <ScalarProperty Name="FTaxPrice" ColumnName="FTaxPrice" />
+                <ScalarProperty Name="FActualPrice" ColumnName="FActualPrice" />
+                <ScalarProperty Name="FBalanceCustomer" ColumnName="FBalanceCustomer" />
+                <ScalarProperty Name="FOrderCustomer" ColumnName="FOrderCustomer" />
+                <ScalarProperty Name="FPaymentCustomer" ColumnName="FPaymentCustomer" />
+                <ScalarProperty Name="FCompanyOrgUnit" ColumnName="FCompanyOrgUnit" />
+                <ScalarProperty Name="FWarehouse" ColumnName="FWarehouse" />
+                <ScalarProperty Name="FQty" ColumnName="FQty" />
+                <ScalarProperty Name="FBaseQty" ColumnName="FBaseQty" />
+                <ScalarProperty Name="FPrice" ColumnName="FPrice" />
+                <ScalarProperty Name="FAmount" ColumnName="FAmount" />
+                <ScalarProperty Name="FUnitActualCost" ColumnName="FUnitActualCost" />
+                <ScalarProperty Name="FActualCost" ColumnName="FActualCost" />
+                <ScalarProperty Name="FUnit" ColumnName="FUnit" />
+                <ScalarProperty Name="FBaseUnit" ColumnName="FBaseUnit" />
+                <ScalarProperty Name="FDiscount" ColumnName="FDiscount" />
+                <ScalarProperty Name="CFMinPrice" ColumnName="CFMinPrice" />
+                <ScalarProperty Name="CFNZMaterialName" ColumnName="CFNZMaterialName" />
+                <ScalarProperty Name="FCustomerNumber" ColumnName="FCustomerNumber" />
+                <ScalarProperty Name="FCustomerDisplayName" ColumnName="FCustomerDisplayName" />
+                <ScalarProperty Name="FCustomerType0" ColumnName="FCustomerType0" />
+                <ScalarProperty Name="FCustomerType1" ColumnName="FCustomerType1" />
+                <ScalarProperty Name="FCustomerType2" ColumnName="FCustomerType2" />
+                <ScalarProperty Name="FMaterialNumber" ColumnName="FMaterialNumber" />
+                <ScalarProperty Name="FMaterial" ColumnName="FMaterial" />
+                <ScalarProperty Name="FMaterialModel" ColumnName="FMaterialModel" />
+                <ScalarProperty Name="FMaterialDisplayName" ColumnName="FMaterialDisplayName" />
+                <ScalarProperty Name="FMaterialType0" ColumnName="FMaterialType0" />
+                <ScalarProperty Name="FMaterialType1" ColumnName="FMaterialType1" />
+                <ScalarProperty Name="FMaterialType2" ColumnName="FMaterialType2" />
+                <ScalarProperty Name="FBrandFertilizer" ColumnName="FBrandFertilizer" />
+                <ScalarProperty Name="FBrandCarbaMind" ColumnName="FBrandCarbaMind" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

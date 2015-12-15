@@ -1,0 +1,15 @@
+C:\MyRepositories\EASProWorker\DataQuery\bin\Debug\DataQuery.dll.config
+C:\MyRepositories\EASProWorker\DataQuery\bin\Debug\DataQuery.dll
+C:\MyRepositories\EASProWorker\DataQuery\bin\Debug\DataQuery.pdb
+C:\MyRepositories\EASProWorker\DataQuery\bin\Debug\DataService.dll
+C:\MyRepositories\EASProWorker\DataQuery\bin\Debug\EntityFramework.dll
+C:\MyRepositories\EASProWorker\DataQuery\bin\Debug\EntityFramework.SqlServer.dll
+C:\MyRepositories\EASProWorker\DataQuery\bin\Debug\Model.dll
+C:\MyRepositories\EASProWorker\DataQuery\bin\Debug\DataService.pdb
+C:\MyRepositories\EASProWorker\DataQuery\bin\Debug\Model.pdb
+C:\MyRepositories\EASProWorker\DataQuery\bin\Debug\EntityFramework.xml
+C:\MyRepositories\EASProWorker\DataQuery\bin\Debug\EntityFramework.SqlServer.xml
+C:\MyRepositories\EASProWorker\DataQuery\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\MyRepositories\EASProWorker\DataQuery\obj\Debug\DataQuery.csprojResolveAssemblyReference.cache
+C:\MyRepositories\EASProWorker\DataQuery\obj\Debug\DataQuery.dll
+C:\MyRepositories\EASProWorker\DataQuery\obj\Debug\DataQuery.pdb

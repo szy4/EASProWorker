@@ -1,0 +1,17 @@
+C:\MyRepositories\EASProWorker\Console\bin\Debug\Console.exe.config
+C:\MyRepositories\EASProWorker\Console\bin\Debug\Console.exe
+C:\MyRepositories\EASProWorker\Console\bin\Debug\Console.pdb
+C:\MyRepositories\EASProWorker\Console\bin\Debug\DataQuery.dll
+C:\MyRepositories\EASProWorker\Console\bin\Debug\DataService.dll
+C:\MyRepositories\EASProWorker\Console\bin\Debug\EntityFramework.dll
+C:\MyRepositories\EASProWorker\Console\bin\Debug\EntityFramework.SqlServer.dll
+C:\MyRepositories\EASProWorker\Console\bin\Debug\Model.dll
+C:\MyRepositories\EASProWorker\Console\bin\Debug\DataQuery.pdb
+C:\MyRepositories\EASProWorker\Console\bin\Debug\DataService.pdb
+C:\MyRepositories\EASProWorker\Console\bin\Debug\Model.pdb
+C:\MyRepositories\EASProWorker\Console\bin\Debug\EntityFramework.xml
+C:\MyRepositories\EASProWorker\Console\bin\Debug\EntityFramework.SqlServer.xml
+C:\MyRepositories\EASProWorker\Console\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\MyRepositories\EASProWorker\Console\obj\Debug\Console.csprojResolveAssemblyReference.cache
+C:\MyRepositories\EASProWorker\Console\obj\Debug\Console.exe
+C:\MyRepositories\EASProWorker\Console\obj\Debug\Console.pdb

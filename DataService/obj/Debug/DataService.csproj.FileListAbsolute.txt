@@ -1,0 +1,13 @@
+C:\MyRepositories\EASProWorker\DataService\bin\Debug\DataService.dll.config
+C:\MyRepositories\EASProWorker\DataService\bin\Debug\DataService.dll
+C:\MyRepositories\EASProWorker\DataService\bin\Debug\DataService.pdb
+C:\MyRepositories\EASProWorker\DataService\bin\Debug\EntityFramework.dll
+C:\MyRepositories\EASProWorker\DataService\bin\Debug\EntityFramework.SqlServer.dll
+C:\MyRepositories\EASProWorker\DataService\bin\Debug\Model.dll
+C:\MyRepositories\EASProWorker\DataService\bin\Debug\Model.pdb
+C:\MyRepositories\EASProWorker\DataService\bin\Debug\EntityFramework.xml
+C:\MyRepositories\EASProWorker\DataService\bin\Debug\EntityFramework.SqlServer.xml
+C:\MyRepositories\EASProWorker\DataService\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\MyRepositories\EASProWorker\DataService\obj\Debug\DataService.csprojResolveAssemblyReference.cache
+C:\MyRepositories\EASProWorker\DataService\obj\Debug\DataService.dll
+C:\MyRepositories\EASProWorker\DataService\obj\Debug\DataService.pdb
